@@ -106,9 +106,17 @@ public class MouseDAO {
 		pstmt.setInt(1, Integer.parseInt(id));
 		return pstmt;
 	}
-
+	
+	
+	
 	public Mouse mouseUpdate(Mouse mouse, String id) {
 		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	public Mouse mouseDelete(Mouse mouse, String id) {
+		
 		return null;
 	}
 
