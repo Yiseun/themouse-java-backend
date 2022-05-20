@@ -108,16 +108,14 @@ public class MouseDAO {
 	}
 	
 	
+	public Mouse mouseDelete(Mouse mouse, String id) {
+		return null;
+	}
 	
 	public Mouse mouseUpdate(Mouse mouse, String id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 	
-	
-	public Mouse mouseDelete(Mouse mouse, String id) {
-		
-		return null;
-	}
 
 }
