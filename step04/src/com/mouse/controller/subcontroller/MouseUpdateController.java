@@ -28,7 +28,7 @@ public class MouseUpdateController implements Controller {
 		mouse.setCountry(country);
 		mouse.setAddress(address);
 		
-		//이거 적는게 맞나?
+		
 		MouseService service = MouseService.getInstance();
 		
 		
@@ -36,8 +36,8 @@ public class MouseUpdateController implements Controller {
 		
 		
 		try {
-			request.setAttribute(name, o);
-		}
+			request.setAttribute(name, result);
+		}finally {}
 		
 		String path = "board";
 		
