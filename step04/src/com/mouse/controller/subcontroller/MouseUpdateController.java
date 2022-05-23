@@ -23,7 +23,10 @@ public class MouseUpdateController implements Controller {
 		
 		Mouse mouse = new Mouse();
 		
-
+		mouse.setId(integre.id);
+		mouse.setName(name);
+		mouse.setCountry(country);
+		mouse.setAddress(address);
 		
 		
 		MouseService service = MouseService.getInstance();
