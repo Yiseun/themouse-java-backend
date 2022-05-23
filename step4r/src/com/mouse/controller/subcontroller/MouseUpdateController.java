@@ -41,7 +41,7 @@ public class MouseUpdateController implements Controller {
 			
 		}
 		
-		String path = "board";
+		String path = "board?command=lists";
 		
 		response.sendRedirect(path); 
 		

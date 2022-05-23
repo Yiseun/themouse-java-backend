@@ -133,7 +133,7 @@ public class MouseDAO {
 	public int mouseDelete(String id) {
 		// TODO Auto-generated method stub
 		String sql = "DELETE FROM mouse WHERE user_id = '?'";
-//		String id = mouse.getId();
+		String id;
 //		Mouse mouse = null;
 
 		try (Connection con = DBUtils.getConnection();
